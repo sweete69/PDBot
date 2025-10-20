@@ -3,12 +3,12 @@ import logging
 from aiogram import Bot, Dispatcher
 from aiogram.fsm.storage.memory import MemoryStorage
 
-from handlers.start import router as start_router
-from handlers.main_menu import router as main_menu_router
+from Tgbot.handlers.start import router as start_router
+from Tgbot.handlers.main_menu import router as main_menu_router
 from Tgbot.handlers.banner.create_banner import router as create_banner_router
 from Tgbot.handlers.banner.create_description import router as create_description_router
-from handlers.policy import router as policy_router
-from handlers.buy_points import router as buy_points_router
+from Tgbot.handlers.policy import router as policy_router
+from Tgbot.handlers.buy_points import router as buy_points_router
 
 logging.basicConfig(level=logging.INFO)
 
