@@ -1,6 +1,0 @@
-{
-    "python.defaultInterpreterPath": "C:/Users/Sp1ret/AppData/Local/Programs/Python/Python313/python.exe",
-    "python.analysis.extraPaths": [
-        "C:/Users/Sp1ret/AppData/Local/Programs/Python/Python313/Lib/site-packages"
-    ]
-}
